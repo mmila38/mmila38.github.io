@@ -73,8 +73,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-code"
     },
     {
-        skillName: ".NET",
-        fontAwesomeClassname: "fas fa-code"
+      skillName: ".NET",
+      fontAwesomeClassname: "fas fa-code"
     },
       {
       skillName: "html-5",
@@ -117,8 +117,8 @@ https://fontawesome.com/icons?d=gallery */
         fontAwesomeClassname: "fas fa-code"
     },
     {
-    skillName: "firebase",
-    fontAwesomeClassname: "fas fa-fire"
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -128,20 +128,20 @@ https://fontawesome.com/icons?d=gallery */
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
-    schools: [
-        {
-            schoolName: "Iowa State University",
-            logo: require("./assets/images/isulogo.png"),
+  schools: [
+    {
+      schoolName: "Iowa State University",
+      logo: require("./assets/images/isulogo.png"),
       subHeader:
         "Bachelor of Science in Computer Science w/ minor in Data Science",
-            duration: "August 2019 - December 2022",
-            desc: "GPA: 3.70",
+      duration: "August 2019 - December 2022",
+      desc: "GPA: 3.70",
       descBullets: [
         "Took courses about Data Stuctures, Algorithms, Object-Oriented Design, and Software Testing",
-                          "Achievements and Awards: Dean's List (Fall 2019 - Spring 2021, Spring 2022), Multicultural Greek Council Leadership Award (Spring 2021)",
+        "Achievements and Awards: Dean's List (Fall 2019 - Spring 2021, Spring 2022), Multicultural Greek Council Leadership Award (Spring 2021)",
         "Leadership: President of Pi Alpha Phi Fraternity, Inc. (Fall 2022), Asian Student Union Executive Board Member (Fall 2020 - Spring 2022)"
       ]
-        }
+    }
   ]
 };
 
@@ -189,11 +189,11 @@ const workExperiences = {
       companylogo: require("./assets/images/kinglandlogo.jpg"),
       date: "May 2021 – January 2022",
       desc: "",
-        descBullets: [
-            "Conducted research and complete data entry on corporations to identify relationships and provide validated and credible data",
-            "Enhanced data quality on new and existing data through continual data clean-up",
-            "Reviewed other DRA’s research and provide valuable feedback to improve quality of reports"
-        ]
+      descBullets: [
+        "Conducted research and complete data entry on corporations to identify relationships and provide validated and credible data",
+        "Enhanced data quality on new and existing data through continual data clean-up",
+        "Reviewed other DRA’s research and provide valuable feedback to improve quality of reports"
+      ]
     }
   ]
 };
@@ -215,12 +215,12 @@ const bigProjects = {
     {
       image: require("./assets/images/isulogo.png"),
       projectName: "VetGo",
-      projectDesc: "Uber-like app for veterinarians to provide services"
+          projectDesc: "Uber-like app for veterinarians to provide services",
     },
     {
       image: require("./assets/images/telcochurn.png"),
       projectName: "Telco Customer Churn",
-      projectDesc: "Predicting customer turnover using scikit learn library"
+      projectDesc: "Predicting customer turnover using scikit learn library",
     }
   ],
   display: true // Set false to hide this section, defaults to true
