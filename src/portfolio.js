@@ -33,10 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-    github: "https://github.com/mmila38",
-    linkedin: "https://www.linkedin.com/in/michael-mila/",
-    gmail: "mmila33001@gmail.com",
-    instagram: "https://www.instagram.com/mic.mila/?hl=en",
+  github: "https://github.com/mmila38",
+  linkedin: "https://www.linkedin.com/in/michael-mila/",
+  gmail: "mmila33001@gmail.com",
+  instagram: "https://www.instagram.com/mic.mila/?hl=en",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -51,10 +51,10 @@ const skillsSection = {
   skills: [
     emoji(
       "⚡ Develop highly interactive user interfaces for your web and mobile applications"
-      ),
-      emoji(
-          "⚡ Integration of third party services such as Firebase and Google Maps Platform"
-      ),
+    ),
+    emoji(
+      "⚡ Integration of third party services such as Firebase and Google Maps Platform"
+    ),
     emoji(
       "⚡ Knowledge and experience in Agile software development methodologies"
     )
@@ -63,10 +63,10 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-    softwareSkills: [
+  softwareSkills: [
     {
-        skillName: "Java",
-        fontAwesomeClassname: "fab fa-java"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "C#",
@@ -76,7 +76,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: ".NET",
       fontAwesomeClassname: "fas fa-code"
     },
-      {
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -109,12 +109,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-        skillName: "C",
-        fontAwesomeClassname: "fas fa-dumpster-fire"
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-dumpster-fire"
     },
     {
-        skillName: "C++",
-        fontAwesomeClassname: "fas fa-code"
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "firebase",
@@ -215,12 +215,12 @@ const bigProjects = {
     {
       image: require("./assets/images/isulogo.png"),
       projectName: "VetGo",
-          projectDesc: "Uber-like app for veterinarians to provide services",
+      projectDesc: "Uber-like app for veterinarians to provide services"
     },
     {
       image: require("./assets/images/telcochurn.png"),
       projectName: "Telco Customer Churn",
-      projectDesc: "Predicting customer turnover using scikit learn library",
+      projectDesc: "Predicting customer turnover using scikit learn library"
     }
   ],
   display: true // Set false to hide this section, defaults to true
