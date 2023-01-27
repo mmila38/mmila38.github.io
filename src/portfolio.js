@@ -23,10 +23,10 @@ const greeting = {
   username: "Michael Mila",
   title: "Hi, I'm Michael",
   subTitle: emoji(
-    "A insightful Software Developer who is passionate and eager to learn new technologies, having experience in application development and an interest in Data Science."
+    "An insightful Software Developer who is passionate and eager to learn new technologies, having experience in application development and an interest in Data Science."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1d4appRqDwNMgWDUKT0wmDNlfWRyZweHk/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Rpm6oX9faTDiS5sgMwhIHk08PXKfpeAZ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,7 +46,8 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Programming Languages",
+    title: "Programming Languages",
+
   subTitle: "Things that I know",
   skills: [
     emoji(
@@ -135,10 +136,10 @@ const educationInfo = {
       subHeader:
         "Bachelor of Science in Computer Science w/ minor in Data Science",
             duration: "August 2019 - December 2022",
-            desc: "GPA: 3.70",
+            desc: "Cum Laude",
       descBullets: [
         "Took courses about Data Stuctures, Algorithms, Object-Oriented Design, and Software Testing",
-                          "Achievements and Awards: Dean's List (Fall 2019 - Spring 2021, Spring 2022), Multicultural Greek Council Leadership Award (Spring 2021)",
+                          "Achievements and Awards: Dean's List (Fall 2019 - Spring 2021, Spring 2022 - Fall 2022), Multicultural Greek Council Leadership Award (Spring 2021)",
         "Leadership: President of Pi Alpha Phi Fraternity, Inc. (Fall 2022), Asian Student Union Executive Board Member (Fall 2020 - Spring 2022)"
       ]
         }
@@ -210,7 +211,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some projects that I have worked on or am working on",
+  subtitle: "Some projects that I have worked on",
   projects: [
     {
       image: require("./assets/images/isulogo.png"),
@@ -358,7 +359,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
